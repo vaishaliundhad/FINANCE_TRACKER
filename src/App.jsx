@@ -55,7 +55,7 @@ import FinanceTracker from "./pages/FinanceTracker";
  import Home from './pages/Home'
  import Login from "./pages/Login";
  import SignUp from "./pages/SignUp";
- import Dashboard from './pages/Dashboard'
+//  import Dashboard from './pages/Dashboard'
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
@@ -71,7 +71,7 @@ function App() {
           <Route path="/editfinancetracker" element={<EditFinanceTracker />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
-          <Route path="/dashboard" element={<PrivateRoute ><Dashboard /></PrivateRoute>}></Route>
+          {/* <Route path="/dashboard" element={<PrivateRoute ><Dashboard /></PrivateRoute>}></Route> */}
         </Route>  
         </Routes>
       </Router>

@@ -115,7 +115,7 @@ const Navbar = () => {
                             <NavLink to="/financeTracker" className="py-2 px-4 rounded hover:bg-gray-700 ">💰 Finance Tracker</NavLink>
                             {/* <NavLink to="/login" className="py-2 px-4 rounded hover:bg-gray-700"><FcKey className='inline-block size-6'/> Login</NavLink> */}
                             <NavLink to="/signup" className="py-2 px-4 rounded hover:bg-gray-700">📝 Signup</NavLink>
-                            <NavLink to="/dashboard" className="py-2 px-4 rounded hover:bg-gray-700"><MdDashboard className='inline-block size-6'/> Dashboard</NavLink>
+                            {/* <NavLink to="/dashboard" className= "py-2 px-4 rounded hover:bg-gray-700"><MdDashboard className='inline-block size-6'/> Dashboard</NavLink> */}
 
                         
 
